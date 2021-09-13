@@ -25,3 +25,8 @@ Execpted Result: Resut in tabular with following fields
          License 
          Updated  
 
+##  Task 1  -  Design Challenge : Option 2
+
+Provide the design for an HTTP based service that returns the simple HTML message "Hello, Adobe!". This service will run in a container and should only expose ports needed to be accessed via http/https. 
+
+Detailed designed document available at challenge2/design/Adobe_Challenge2.pdf
