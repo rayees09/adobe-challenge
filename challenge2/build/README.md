@@ -48,7 +48,7 @@ docker build -t dev_api .
 Then, you can run a container like this :
 
 ```
-docker run -p 127.0.0.1:8000:8000 dev_api
+docker run -p 127.0.0.1:8080:8080 dev_api
 ```
 
 You can access to your API with curl for instance :
