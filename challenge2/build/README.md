@@ -42,17 +42,17 @@ There is also a Flask demo application in the *app* folder of this repository.
 First, build your image based on your Dockerfile.
 
 ```
-docker build -t dev_api .
+docker build -t app-server .
 ```
 
 Then, you can run a container like this :
 
 ```
-docker run -p 127.0.0.1:8080:8080 dev_api
+docker run -p 127.0.0.1:8080:8080 app-server
 ```
 
 You can access to your API with curl for instance :
 
 ```
-curl localhost:8000
+curl localhost:8080
 ```
